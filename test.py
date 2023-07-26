@@ -1,4 +1,4 @@
-with open('requirements.txt') as file:
-    file.seek(0)
-    print(file.readlines())
+import os
+
+print('this is my os path ', os.path)
 

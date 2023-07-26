@@ -1,10 +1,10 @@
 pandas
 numpy 
-seaborn
+flask 
 matplotlib
+seaborn
+scikit-learn
+
 -e .
 
-#-e . is use for triggering the setup.py file.
-# If setup.py file is triggerd then it creates a packages of folder 
-#which we want as a package"""
 
