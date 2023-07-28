@@ -32,7 +32,7 @@ def predict_datapoint():
        
         result =  round(pred[0],2) # this is returning the first value of a array upto 2 decimal
 
-        return render_template('Results.html', final_result = result)
+        return render_template('results.html', final_result = result)
     
 if __name__ == "__main__":
     app.run(host= "0.0.0.0")
