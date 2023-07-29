@@ -5,6 +5,7 @@ app = application
 
 
 
+
 @app.route('/')
 def hompage():
     return render_template('index.html')
